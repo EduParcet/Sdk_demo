@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <Config>
+    <id>0</id>
+    <Archivo>Config</Archivo>
+    <Autor>Adm</Autor>
+    <clrCldDto>-7876885</clrCldDto>
+    <clrCldUsr>-1</clrCldUsr>
+    <clrTxtDto>-7876885</clrTxtDto>
+	<clrTxtUsr>-13933</clrTxtUsr>
+	<ClrCldSel>-16666</ClrCldSel>
+    <ClrCCsSel>-1907998</ClrCCsSel>
+  </Config>
+</Configs>

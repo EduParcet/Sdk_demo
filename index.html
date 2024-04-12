@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="[add your bin description]" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <title>Sudoku Cln</title>
+    <script src="jquery-3.7.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="juego.css" />
+    <script src="juego.js"></script>
+    <!-- <script src="Config.js"></script>        -->
+   </head>
+
+  <body>
+    <!-- Contenedor -->
+    <div class="cntEntCls">
+      <!-- Logotipo -->
+      <div class="logoCls">
+         <img src="images/AaA.png" class="imgCls" alt="" />
+      </div>
+      <!-- Nombre de la aplicación -->
+      <div class="nmbrCls">
+         <p>Ayudanos a ayudar</p>
+      </div> 
+
+      <!-- Entrada de usuario y password -->     
+      <div class="nmpwCls">
+         <p>
+            <input
+            type="text"
+            class="txtCls"
+            id="txtUsr"
+            placeholder="Nombre" />            
+            <input
+            type="password"
+            class="txtCls"
+            id="txtPw"
+            placeholder="Contraseña" />
+            <br>
+            <a onclick="newPasssword();">¿Olvidó su contraseña?</a>                              
+      </div> 
+
+      <div class="seleccionCls">
+         <p>
+            <button type="button" class="bCls1" onclick="goApp();">Juego</button>             
+            <button type="button" class="bCls2" onclick="goHome();">Salida</button>                   
+         </p>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,296 @@
+
+* {                                 
+   box-sizing: border-box;
+} 
+
+html{   
+   font-family: sans-serif;
+   font-size:1.6vh;
+}
+
+.bodyCls {
+   width: 120vh;
+   height: 84vh;  
+   font-family: Verdana;
+   font-size:1.6vh;
+}
+
+.jgoCls {
+   width: 108vh;
+   height: 84vh
+ }
+
+/*
+.tblCicCls {
+   display: flex;
+}
+
+
+/*Regiones de crear tablero*/
+.regCls {   
+    width: 25vh;
+    float: left;
+    height:25vh;     
+}
+
+.infCls {
+   width: 107vh;
+   height: 10vh;   
+   margin-top: 1vh;   
+ }
+/* Tablero de información
+.infCls{
+width: 100vh;
+height:10vh;
+border:1px solid navy;
+margin-top: 1vh;
+padding-left: 1vh;
+}
+*/
+/*
+.cronoCls {
+   ;
+}
+*/
+
+/*
+.tipoCls{
+   height:2rem;
+   width:2rem;
+   background-color: cornsilk;
+}
+*/
+
+/*
+.tipo1Cls{   
+   height: 15%;
+   margin-bottom: 0em;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-size: 2vh;
+}
+
+.selNvlCls{
+   width: 50%;
+   height: 15%;
+   margin-bottom: 0em;
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;   
+   background-color: darkgreen;
+   color:white;
+   border: 0em solid darkgreen;
+   margin-left: 1em; 
+   cursor: pointer;
+   font-size: 2vh;
+}
+
+.sCls{
+   width: 100%;
+   height:7%;
+   border:1px solid navy;
+}
+*/
+/* Control nueva partida */
+.btnCls {  
+   background-color:white;
+   border-width: 2px;
+   border-style: solid;
+   border-color: navy;
+   border-radius: 4px;   
+   width: 9vh;
+   height: 6vh;
+ }
+
+ /*
+.btns1Cls {
+   background-color:white;  
+   width: 9vh;
+   height: 6vh;
+}*/
+/* controles imagen */
+ .imgCls {
+   width: 5vh;
+   height: 4vh;
+   object-fit:fill;
+   max-width: 100%;
+   max-height: 100%;
+   min-width: 50%;
+   min-height: 50%;
+}
+/*
+.img2Cls {
+   width: 50%;
+   height: 100%;
+   object-fit:contain;
+   max-width: 50%;
+   max-height: 100%;
+   min-width: 32%;
+   min-height: 100%;
+}
+*/
+
+.nivelJuegoCls {
+   width: 50%;
+   height: 50%;
+   object-fit:contain;
+   max-width: 100%;
+   max-height: 100%; 
+}
+
+.controlesId{
+   border: 1px solid white;
+}
+
+
+p {text-align: center; 
+}
+
+
+.itemBtn {
+    background-color: transparent;
+    border: 1px solid navy;
+    color: navy;
+    font-size: smaller;
+}
+
+
+.lsVCls {
+    width:0.5vh;
+    float:left;
+    height: 25vh;    
+    background-color: red;
+}
+
+.lsHCls {
+    width:25vh;
+    float:left;
+    height:0.5vh;    
+    background-color: blue;    
+}
+
+.lsH2Cls {
+    width:0.5vh;
+    float:left;
+    height:0.5vh;    
+    background-color: blue;    
+}
+
+.lsH4Cls {
+    width:0.5vh;
+    float:left;
+    height:0.5vh;
+    background-color: blue;
+}
+
+/*Marcas de lapiz*/
+.divMLCls {
+   width: 87px;
+   height: 87px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   }
+
+.tableMLCls {
+   width: 100%;
+   height: 100%;
+   border: 1px solid black;
+   background-color: white;
+}
+
+.tdMLCls {
+   width: 33%;
+   height: 33%;
+   text-align: center;
+   border: 1px solid black;
+}
+
+
+.eliminarPartidaCls {   
+   background-color: white;
+}
+
+.infCls {
+   display: flex;
+   background-color: white;
+}
+
+.btnInf1Cls {
+   display: flex; 
+   background-color:white;
+   border: 1px solid navy;   
+   border-radius: 4px; 
+   justify-content: center;
+   align-items: center;
+   margin-right: 1vh;  
+   width: 8vh;
+   height: 6vh;  
+}
+/*
+.contarIgualesCls {
+   display: flex; 
+   background-color: yellow;   
+   border-radius: 4px;   
+   width: 24.4vh;
+   height: 6vh; 
+}*/
+
+.lineaCiCls {
+   display:flex;
+   margin-top: 0.5vh;
+}
+
+.lineaLiCls {
+   display:flex;
+   margin-top: 0.5vh;
+}
+
+.celdaXCls {
+   display: flex;
+   border: 1px solid navy;  
+   justify-content: center;
+   align-items: center; 
+   font-weight:  bold;
+   border-radius: 4px;
+   width: 2.2vh;  
+   height: 2.2vh;
+}
+
+/* Celdas contar iguales */
+.celdaCls {   
+   display: flex;
+   border: 1px solid navy;
+   /*stext-align: left;*/
+   justify-content: center;
+   align-items: center;
+   font-weight:  bold;
+   margin-left: 0.25vh;
+   margin-right: 0.25vh;
+   border-radius: 4px;
+   width: 3vh;  
+   height: 3vh;   
+}
+
+.dtzCls {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 25vh;  
+   height: 6vh;   
+   border: 1px solid navy;   
+   border-radius: 4px;
+}
+*
+.tblTrCrnCls {   
+   border: 2px solid navy;
+   display: flex; 
+   align-items: right;
+   font-weight:  bold;
+   margin-left: 2vh;
+   border-radius: 4px;   
+}
+
